@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mindx-cijs79-deployment/static/css/main.073c9b0a.css",
-    "main.js": "/mindx-cijs79-deployment/static/js/main.2dcb5ff7.js",
+    "main.js": "/mindx-cijs79-deployment/static/js/main.7fc575a0.js",
     "static/js/787.e577274b.chunk.js": "/mindx-cijs79-deployment/static/js/787.e577274b.chunk.js",
     "index.html": "/mindx-cijs79-deployment/index.html",
     "main.073c9b0a.css.map": "/mindx-cijs79-deployment/static/css/main.073c9b0a.css.map",
-    "main.2dcb5ff7.js.map": "/mindx-cijs79-deployment/static/js/main.2dcb5ff7.js.map",
+    "main.7fc575a0.js.map": "/mindx-cijs79-deployment/static/js/main.7fc575a0.js.map",
     "787.e577274b.chunk.js.map": "/mindx-cijs79-deployment/static/js/787.e577274b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2dcb5ff7.js"
+    "static/js/main.7fc575a0.js"
   ]
 }
