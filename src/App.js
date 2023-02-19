@@ -1,23 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+function Header() {
+  return (
+    <div>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+        <label style={{marginRight: 10}}>Task: </label>
+        <input style={{marginRight: 10}}></input>
+        <button>Add</button>
+      </div>
+      <hr></hr>
+    </div>
+  );
+}
+
+function Body() {
+  return (
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+      <ul>
+        <li>Go to school</li>
+        <li>Make dinner</li>
+        <li>Play soccer</li>
+      </ul>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div style={{display: 'flex', justifyContent: 'space-around'}}>
+      <h3>3 task</h3>
+      <h3>Made by MindX</h3>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginTop: '50px', marginLeft: '100px' }}>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
