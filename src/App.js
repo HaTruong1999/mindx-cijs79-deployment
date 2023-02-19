@@ -7,7 +7,7 @@ function Header() {
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <label style={{marginRight: 10}}>Task: </label>
         <input style={{marginRight: 10}}></input>
-        <button>Add</button>
+        <button>Add haha</button>
       </div>
       <hr></hr>
     </div>
